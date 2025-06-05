@@ -8,14 +8,10 @@ LLM (for reasoning)
           ↓
       perform tasks
 ```
-
-```mermaid
-graph TD
-  LLM[LLM (for reasoning)] --> Memory[Memory (short or long)]
-  LLM --> Tools
-  Memory --> Tasks[perform tasks]
-  Tools --> Tasks
-
+```
+->
+->
+```
 
 ### system
 - environment
